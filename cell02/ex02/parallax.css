@@ -1,4 +1,52 @@
-body {
- background-image: url("image1.jpg");
-
+body, html {
+ height: 1200;
+ width: 1200;
 }
+
+h2 {
+ color: white;
+ text-align: center;
+ position: relative;
+ top: 50%;
+}
+
+
+/* Design parallax of 2 images w parallax scrolling effect */
+
+.parallax {
+ height: 1200px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ vertical-align: top;
+}
+
+
+/* Design the black block */
+.noir {
+ display: flex;
+ background: black;
+ height: 1200px;
+ background-size: cover;
+ margin: 0;
+ padding: 0;
+ vertical-align: top;
+}
+
+/* Design the images of background in oder */
+.image1 {
+ background-image: url('image1.jpg');
+ margin: 0;
+ padding: 0;
+ vertical-align: top;
+}
+
+.image2 {
+ background-image: url('image2.jpg');
+ margin: 0;
+ padding: 0;
+ vertical-align: top;
+}
+
+
