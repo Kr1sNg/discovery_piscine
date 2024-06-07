@@ -1,0 +1,31 @@
+html, body {
+	background-image: url("background.jpg");
+ }
+
+h1, h4, p {
+	color: #292c3b;
+ }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -20vh;
+  margin-left: -20vw;
+  justify-content: center;
+  align-items: center;
+  }
