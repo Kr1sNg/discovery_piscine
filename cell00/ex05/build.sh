@@ -10,3 +10,11 @@ else
 		mkdir ex$i
 	done
 fi
+
+: ' comment in shell script .sh
+     in many lines '
+
+# comment in one line
+
+:' run .sh file by -- ./file.sh --
+	if there is an error, run -- chmod +x ./flie.sh -- ' 
